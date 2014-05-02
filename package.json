@@ -1,0 +1,40 @@
+{
+  "name": "nd-tests",
+  "version": "0.0.0",
+  "main": "lib/nd-tests.js",
+  "description": "tests modules",
+  "homepage": "https://github.com/bkane11/nd-tests",
+  "bugs": "https://github.com/bkane11/nd-tests/issues",
+  "author": {
+    "name": "bk",
+    "email": "bek@cartog.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bkane11/nd-tests"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "jshint-stylish": "^0.2.0",
+    "grunt-jsbeautifier": "~0.2.7",
+    "querystring": "~0.2.0",
+    "formidable": "~1.0.14",
+    "mime": "~1.2.11",
+    "path": "~0.4.9"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "fs-then": "~0.2.0"
+  }
+}
